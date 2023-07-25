@@ -1,0 +1,97 @@
+*, ::before,::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.support-tous{
+    /*  */
+    width: 100%;
+    height: 100vh;
+    
+}
+.containeur{
+    display: flex;
+}
+.containeur .image{
+    width: 50%;
+    height: 100vh;
+    background-image: url(./picha.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.identite{
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 70px 15px 30px;
+
+}
+.identite .bi-stack{
+    font-size: 30px;
+    color: #0000ff;
+    display: flex;
+    margin-bottom: 40px;
+    /* margin-left: 100px; */
+    text-align: center;
+    justify-content: center;
+    /* justify-content: center; */
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+p{
+    font-size:1rem;
+    margin: 10px ;
+    /* text-align: center; */
+}
+.forme{
+    display: flex;
+    flex-direction: column;
+    
+}
+.forme input{
+    display: flex;
+    justify-content: center;
+     color: #0000ff;
+    margin: 10px 80px;
+    width: 70%;
+     border: 1px;; 
+    outline: none;
+    border-bottom: 2px solid blue;
+    padding: 5px;
+    bo
+
+}
+.containeur .dinput{
+    width: 70%;
+    background-color:blue;
+    color:white;
+}
+
+@media screen and (max-width:767px) {
+    .image{
+      display:none;
+
+    } 
+    
+    .identite{
+        width: 100%;
+
+    }
+    .forme input{
+        width: 80%;
+        padding: 15px 15px ;
+        margin-left: 60px;
+    }
+    .containeur .dinput{
+        width: 80%;
+        margin-top: 15px;
+        background-color: black;
+        color: white;
+    }
+}
+
